@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+#mainLeft, #mainRight {
+    flex: 1; /* Equal width for both columns */
+    padding: 20px; /* Add some padding */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+h1 {
+    font-size: 3em;
+    letter-spacing: .6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center; /* Center align header */
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+h3 {
+    font-size: 1em;
+    padding-bottom: 0.5em; /* Reduced padding */
+    margin: 0; /* Remove margin to further reduce space */
+}
+
